@@ -1,6 +1,6 @@
 # CUT&RUN Pipeline — Tulloch et al. eLife 2025
 
-Pipeline reproducing the CUT&RUN analysis from **Tulloch et al. eLife 2025** ([doi:10.7554/eLife.107565](https://doi.org/10.7554/eLife.107565)), with alignment to **mm39 (GRCm39)** instead of mm10.
+Pipeline reproducing the CUT&RUN analysis from **Tulloch et al. eLife 2025** ([doi:10.7554/eLife.107565](https://doi.org/10.7554/eLife.107565)), with alignment to **mm39 (GRCm39)** instead of mm10. This pipeline is compatible with Windows Subsystem for Linux (WSL).
 
 ## Data Source
 
