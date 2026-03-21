@@ -1,0 +1,33 @@
+# User config (contains local paths)
+config.yaml
+
+# Snakemake
+.snakemake/
+*.snakemake.log
+
+# Pipeline outputs (run-specific)
+logs/
+results/
+reference/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.egg/
+
+# Debug / dev
+_debug_path.py
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

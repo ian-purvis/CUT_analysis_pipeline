@@ -1,0 +1,14 @@
+# CUT&RUN Pipeline Configuration
+# Copy to config.yaml and edit paths for your setup:
+#   cp config.yaml.example config.yaml
+
+fastq_dir: "path/to/FASTQ"
+genome_fa: "/path/to/genome.fna"
+genome_bwa: "/path/to/genome.fna"
+blacklist_bed: ""
+control_sample: "IgG-2"
+bbmap_xmx: ""
+macs3_pvalue: 0.05
+macs3_extsize: 200
+macs3_nolambda: true
+threads: 4

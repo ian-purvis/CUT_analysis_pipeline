@@ -1,0 +1,27 @@
+# Conda environment for CUT&RUN pipeline
+# Tulloch et al. eLife 2025 (https://doi.org/10.7554/eLife.107565)
+#
+# IMPORTANT: Bioconda packages (bwa, samtools, macs3, etc.) are Linux-only.
+# Use WSL (Windows Subsystem for Linux) or native Linux/macOS:
+#   1. cd /path/to/cutrun_pipeline
+#   2. conda env create -f environment.yaml
+#   3. conda activate cutrun
+#
+# Create: conda env create -f environment.yaml
+# Activate: conda activate cutrun
+
+name: cutrun
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - snakemake>=7.0
+  - fastqc
+  - trim-galore
+  - bwa
+  - samtools
+  - macs3
+  - deeptools
+  - bbmap
