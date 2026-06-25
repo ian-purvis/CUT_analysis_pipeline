@@ -7,7 +7,7 @@ Pipeline reproducing the CUT&RUN analysis from **Tulloch et al. eLife 2025** ([d
 - **Harvard Dataverse**: [doi:10.7910/DVN/TW0ZQL](https://doi.org/10.7910/DVN/TW0ZQL)
 - Use `download_cutrun_from_metadata.ps1` in `E14 retinas/` to download FASTQ files
 
-## Pipeline Steps (Paper Methods)
+## Pipeline Steps
 
 | Step | Tool | Version | Description |
 |------|------|---------|-------------|
